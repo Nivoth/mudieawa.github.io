@@ -1,0 +1,151 @@
+/*ICON*/
+.log .fa-heart,.fa-cart-shopping,.fa-user{
+    color: #020710;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .log .fa-heart:hover,.fa-cart-shopping:hover,.fa-user:hover{
+     color: #2467e4;
+   }
+  /*END-ICONS*/
+  
+   /*NAV*/
+  .navbar {
+    background-color: #ccc; /* Darker background */
+    color: #fff; /* Light text */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: top 0.3s;
+    box-shadow: rgba(168, 149, 149, 0.1) 0px 4px 12px;
+    font-size: 1rem;
+    border-bottom:1px solid #444;
+    border-top: #444;
+  }
+  .navbar-brand {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 20px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #2467e4; /* Lighter text on hover */
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-weight: bold;
+  }
+  .nav-link {
+    color: black; /* Adjust the default color as needed */
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .form-control, .btn {
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  /*END NAV*/
+/*ABOUT US*/
+.single_advisor_profile {
+    margin-bottom: 50px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+    box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+}
+.single_advisor_profile .advisor_thumb {
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+    padding: 30px 30px 0 30px;
+    background-color: #eeeded;
+    overflow: hidden;
+}
+.single_advisor_profile .advisor_thumb::after {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 150%;
+    height: 80px;
+    bottom: -45px;
+    left: -25%;
+    content: "";
+    background-color: #ffffff;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+@media only screen and (max-width: 575px) {
+    .single_advisor_profile .advisor_thumb::after {
+        height: 160px;
+        bottom: -90px;
+    }
+}
+.single_advisor_profile .advisor_thumb .social-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 30px;
+    text-align: right;
+}
+.single_advisor_profile .advisor_thumb .social-info a {
+    font-size: 18px;
+    color: #020710;
+    padding: 0 5px;
+}
+.single_advisor_profile .advisor_thumb .social-info a:hover,
+.single_advisor_profile .advisor_thumb .social-info a:focus {
+    color: #0c0cfc;
+}
+.single_advisor_profile .advisor_thumb .social-info a:last-child {
+    padding-right: 0;
+}
+.single_advisor_profile .single_advisor_details_info {
+    position: relative;
+    padding: 30px;
+    text-align: right;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 0 0 15px 15px;
+    background-color: #ffffff;
+}
+.single_advisor_profile .single_advisor_details_info::after {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    content: "";
+    top: 12px;
+    right: 30px;
+}
+.single_advisor_profile .single_advisor_details_info h6 {
+    margin-bottom: 0.25rem;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_advisor_profile .single_advisor_details_info h6 {
+        font-size: 19px;
+    }
+}
+.single_advisor_profile .single_advisor_details_info p {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_advisor_profile .single_advisor_details_info p {
+        font-size: 12px;
+    }
+}
+/*END ABOUT US*/

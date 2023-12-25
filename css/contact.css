@@ -1,0 +1,55 @@
+/*ICON*/
+.log .fa-heart,.fa-cart-shopping,.fa-user{
+    color: #020710;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .log .fa-heart:hover,.fa-cart-shopping:hover,.fa-user:hover{
+     color: #2467e4;
+   }
+  /*END-ICONS*/
+  
+   /*NAV*/
+  .navbar {
+    background-color: #ccc; /* Darker background */
+    color: #fff; /* Light text */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: top 0.3s;
+    box-shadow: rgba(168, 149, 149, 0.1) 0px 4px 12px;
+    font-size: 1rem;
+    border-bottom:1px solid #444;
+    border-top: #444;
+  }
+  .navbar-brand {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 20px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #2467e4; /* Lighter text on hover */
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-weight: bold;
+  }
+  .nav-link {
+    color: black; /* Adjust the default color as needed */
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .form-control, .btn {
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  /*END NAV*/
